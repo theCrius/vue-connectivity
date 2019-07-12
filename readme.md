@@ -58,6 +58,7 @@ The plugin support a set of options to configure the Heartbeat feature:
 | heartbeatEnabled  | Determine if the heartbeat feature is enabled. Default `true`  |
 | heartbeatUrl  | Against which url the heartbeat request will be performed. Default `http://internethealthtest.org`  |
 | heartbeatInterval  | How often a request is performed. Default `30000` in ms  |
+| requestMethod  | Which method will be used to perform the request. Default is `head`  |
 | debug  | The plugin will print in console detailed information for every action. Default `false`  |
 
 You can set your custom settings in the `main.js`
